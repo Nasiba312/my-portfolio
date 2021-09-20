@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Personal portfolio</title>
+</head>
+<body>
+  
+  <!-- navbar -->
+  <nav class="navbar">
+    <h1 class="brand">Logo</h1>
+    <ul class="links-container">
+      <li class="links-item"><a href='#' class="link active">Home</a></li>
+      <li class="links-item"><a href='#' class="link ">Project</a></li>
+      <li class="links-item"><a href='#about-section' class="link ">About</a></li>
+      <li class="links-item"><a href='#contact-section' class="link ">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- home section -->
+
+  <section class="home">
+    <div class="hero-content">
+      <h1 class="hero-heading"><span class="highLight">Hi, </span> i am Nasiba</h1>
+      <p class="profession"> web developer</p>
+      <p class="info">A beginner frontend developer. Practicing, studying, having fun</p>
+      <a href="#contact-section" class="btn">Contact</a>
+    </div>
+    <img src="./img/Subtract.png" class="image"alt="">
+  </section>
+
+  <!-- About -->
+  <section class="about" id="about-section">
+    <h2 class="heading">About <span class="highLight">me</span><h2>
+    <p class="sub-heading">Lorem ipsum dolor sit amet.</p>
+    <div class="seperator"></div>
+
+    <div class="about-me-container">
+      <div class="left-col">
+        <img src="./img/IMG_9537.JPG" class="about-image" alt="">
+      </div>
+      <div class="right-col">
+        <p class="about-para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam eos ullam illum temporibus omnis earum officia libero explicabo, delectus exercitationem perferendis cupiditate officiis veniam dolor possimus repellendus nostrum obcaecati illo.</p>
+        <a href="https://www.linkedin.com/in/nasiba-romatova-nrb312/" class="btn">My linkedIn</a>
+      </div>
+    </div>
+    <h2 class="heading">Languages and framework i know</h2>
+    <div class="seperator"></div>
+    <div class="skill-container">
+      <div class="skill-card" style="--bg:#f06529">
+        <div class="skill">HTML</div>
+      </div>
+      <div class="skill-card" style="--bg:#f06529">
+        <div class="skill">CSS</div>
+      </div>
+      <div class="skill-card" style="--bg:#f06529">
+        <div class="skill">JavaScript</div>
+      </div>
+      <div class="skill-card" style="--bg:#f06529">
+        <div class="skill">React</div>
+      </div>
+      
+    </div>
+  </section>
+
+  <!--Contact form-->
+  <section class="contact" id="contact-section">
+    <h2 class="heading">Contact<span class="highLight"> me</span></h2>
+    <p class="sub-heading">Lorem ipsum dolor sit amet.</p>
+    <div class="seperator"></div>
+
+    <div class="contact-form">
+      <div class="name">
+        <input type="text" class="first-name" required placeholder="first name">
+        <input type="text" class="last-name"required placeholder="last name">
+        <input type="email" required class="email" placeholder="email">
+        <textarea  class="message" placeholder="message" required></textarea>
+        <button class="btn contact-btn">Contact</button>
+      </div>
+    </div>
+
+  </div>
+  </section>
+  <script src="./app.js"></script>
+</body>
+</html>
